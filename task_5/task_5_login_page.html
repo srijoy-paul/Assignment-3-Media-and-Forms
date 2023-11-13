@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      sup {
+        color: red;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="email">Email <sup>*</sup></label>
+        <input
+          type="email"
+          name=""
+          id="email"
+          placeholder="Enter your email"
+          required
+          minlength="3"
+        />
+      </div>
+      <div>
+        <label for="pswd">Password<sup>*</sup></label>
+        <input
+          type="password"
+          name=""
+          id="email"
+          placeholder="Enter your password"
+          required
+          maxlength="15"
+        />
+      </div>
+      <button type="submit">Login</button>
+      <button type="submit" disabled>Sign Up</button>
+      <div>
+        Don't have an account?
+        <a href="./task_5_signup_page.html">Sign Up</a>
+      </div>
+    </form>
+  </body>
+</html>
